@@ -10,17 +10,23 @@
 }
 
 .pink{
-    height: 50px;
+    height: 100px;
     background-color:violet;
 }
 
 .yellow{
-    height: 200px;
+    height: 270px;
     background-color: rgb(230, 230, 150);  
 }
 
+.header{
+    height: 50px;
+    background-color: lightblue;
+
+}
+
 .lightblue{
-    height: 300px;
+    height: 350px;
     background-color:lightblue;
     content: "";
     clear: both;
@@ -28,31 +34,32 @@
 }
 
 .violet{
-    height: 25px;
+    height: 50px;
     background-color: purple;  
 }
 
 #left{
-    height: 250px;
-    width: 30%;
-    border: 10px solid rgb(92, 133, 221);
+    height: 350px;
+    width: 20%;
+    border-top: 10px solid rgb(92, 133, 221);
+    border-right: 10px solid rgb(92, 133, 221);
+    border-bottom: 10px solid rgb(92, 133, 221);
     float: left;
-    margin-top: 50px;
 }
 
 #right{
-    height: 250px;
-    width: 30%;
-    border: 10px solid rgb(92, 133, 221);
+    height: 350px;
+    width: 20%;
+    border-top: 10px solid rgb(92, 133, 221);
+    border-left: 10px solid rgb(92, 133, 221);
+    border-bottom: 10px solid rgb(92, 133, 221);
     float: right;
-    margin-top: 50px;
 }
 
 #middle{
-    height: 250px;
-    width: 40%;
+    height: 350px;
+    width: 60%;
     border-top: 10px solid rgb(92, 133, 221);
     border-bottom: 10px solid rgb(92, 133, 221);
     float: left;
-    margin-top: 50px;
 }
